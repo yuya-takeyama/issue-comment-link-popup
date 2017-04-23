@@ -1,0 +1,10 @@
+.html5tooltip-box {
+  background-color: #F7F7F7;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.15), 0 0 10px rgba(255,255,255,.15);
+  color: #2A2A2A;
+  font-family: arial,sans-serif;
+  font-size: 11px;
+  border: 1px #AAA solid;
+  font-weight: normal;
+}

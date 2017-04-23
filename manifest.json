@@ -1,0 +1,13 @@
+{
+  "name": "IssueCommentLinkPopup",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Show popop contains the target comment",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["html5tooltips.1.7.1.min.js", "index.js"],
+      "css": ["html5tooltips.css", "style.css"]
+    }
+  ]
+}
